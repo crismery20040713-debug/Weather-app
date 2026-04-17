@@ -1,0 +1,64 @@
+<<<<<<< HEAD
+body {
+    background: radial-gradient(circle at center, #0a192f 0%, #020617 100%);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.weather-card {
+    background: rgba(15, 23, 42, 0.8);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(0, 242, 255, 0.3);
+    box-shadow: 0 0 20px rgba(0, 242, 255, 0.1);
+    width: 100%;
+    max-width: 400px;
+    transition: all 0.4s ease;
+}
+
+.weather-card:hover {
+    box-shadow: 0 0 40px rgba(0, 242, 255, 0.2);
+    border-color: rgba(0, 242, 255, 0.6);
+}
+
+#cityInput::placeholder { color: rgba(0, 242, 255, 0.5); }
+
+.weather-icon {
+    width: 120px;
+    filter: drop-shadow(0 0 10px rgba(0, 242, 255, 0.8));
+}
+
+.text-info {
+    color: #00f2ff !important;
+    text-shadow: 0 0 10px rgba(0, 242, 255, 0.5);
+=======
+body {
+    background: radial-gradient(circle at center, #0a192f 0%, #020617 100%);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.weather-card {
+    background: rgba(15, 23, 42, 0.8);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(0, 242, 255, 0.3);
+    box-shadow: 0 0 20px rgba(0, 242, 255, 0.1);
+    width: 100%;
+    max-width: 400px;
+    transition: all 0.4s ease;
+}
+
+.weather-card:hover {
+    box-shadow: 0 0 40px rgba(0, 242, 255, 0.2);
+    border-color: rgba(0, 242, 255, 0.6);
+}
+
+#cityInput::placeholder { color: rgba(0, 242, 255, 0.5); }
+
+.weather-icon {
+    width: 120px;
+    filter: drop-shadow(0 0 10px rgba(0, 242, 255, 0.8));
+}
+
+.text-info {
+    color: #00f2ff !important;
+    text-shadow: 0 0 10px rgba(0, 242, 255, 0.5);
+>>>>>>> 9c9f254287281dbaa10a324d97b56e402f3eccce
+}
